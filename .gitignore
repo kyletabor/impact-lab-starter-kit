@@ -1,0 +1,22 @@
+# Secrets: API keys live here, never in GitHub
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code personal settings (keep shared skills in .claude/skills)
+.claude/settings.local.json
